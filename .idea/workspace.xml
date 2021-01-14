@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kK4UvAYCYRaij4VgzCFkoAAMWr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="PERL5_MAIN_SETTINGS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\NEWxampp\htdocs\MAKERGLOVE WA-MS2\css" />
+      <recent name="C:\xampp\htdocs\MAKERGLOVE WA-MS2\media\images" />
+      <recent name="C:\xampp\htdocs\MAKERGLOVE WA-MS2\media\video" />
+      <recent name="C:\xampp\htdocs\MAKERGLOVE WA-MS2\media" />
+      <recent name="C:\xampp\htdocs\MAKERGLOVE WA-MS2\scripts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="" />
+      <created>1605435968108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605435968108</updated>
+      <workItem from="1605435969216" duration="590000" />
+      <workItem from="1605511285127" duration="150000" />
+      <workItem from="1605606322931" duration="22904000" />
+      <workItem from="1605719200670" duration="646000" />
+      <workItem from="1605787357829" duration="323000" />
+      <workItem from="1605797872399" duration="665000" />
+      <workItem from="1606058295923" duration="2571000" />
+      <workItem from="1606486858119" duration="14470000" />
+      <workItem from="1606999935356" duration="14163000" />
+      <workItem from="1607075650538" duration="9994000" />
+      <workItem from="1607524674351" duration="1353000" />
+      <workItem from="1608195190720" duration="7112000" />
+      <workItem from="1609778263895" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606492241758">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1606492241758" />
+    <state x="2180" y="94" key="FileChooserDialogImpl" timestamp="1605606352676">
+      <screen x="1440" y="-181" width="1920" height="1040" />
+    </state>
+    <state x="2180" y="94" key="FileChooserDialogImpl/0.0.1440.860/1440.-181.1920.1040@1440.-181.1920.1040" timestamp="1605606352676" />
+    <state x="2407" y="-916" key="SettingsEditor" timestamp="1607076616870">
+      <screen x="1946" y="-1081" width="1920" height="1040" />
+    </state>
+    <state x="2407" y="-916" key="SettingsEditor/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@1946.-1081.1920.1040" timestamp="1607076616870" />
+    <state x="210" y="18" width="1397" height="849" key="dock-window-1" timestamp="1605618545417">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="210" y="18" width="1397" height="849" key="dock-window-1/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@0.0.1600.860" timestamp="1605618545417" />
+    <state x="2262" y="-923" width="1397" height="849" key="dock-window-1/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@1946.-1081.1920.1040" timestamp="1605615949967" />
+    <state x="612" y="329" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605618536209">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="612" y="329" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@0.0.1600.860" timestamp="1605618536209" />
+  </component>
+</project>

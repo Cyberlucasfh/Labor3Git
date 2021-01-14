@@ -1,0 +1,149 @@
+
+html {
+    height: 100%;
+
+}
+section {
+
+}
+body {
+    background-color: white;
+    width: 100%;
+
+}
+nav {
+    background-image: conic-gradient(orangered 50deg, white 170deg, orangered 310deg);
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+header {
+    text-align: center;
+    background-image: url("MG Logo.svg");
+
+
+}
+footer {
+
+    background-image: conic-gradient(white 50deg, orangered 170deg, white 310deg);
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#navTable {
+    width: 100%;
+
+}
+#main {
+    box-sizing: border-box;
+    width:100%;
+
+    height:100%;
+    display:flex;
+    flex-flow: row;
+}
+
+.left, .right, .center {
+    float: left;
+    display:flex;
+    flex-flow: column;
+    text-align: center;
+}
+.left {
+    background-image: linear-gradient(to right, orangered, white );
+    width:10%;
+    height: inherit;
+    min-height:100vh;
+
+}
+.right {
+    background-image: linear-gradient(to left, orangered, white );
+    width:10%;
+    min-height:100%;
+    height: 100vh;
+}
+.center {
+
+    width:80%;
+}
+
+
+.navElement {
+    font-size: 120%;
+    width: 14.3vw;
+
+    border-right: black solid;
+}
+a.mainLink{
+    color: black;
+    text-decoration: none;
+}
+a.mainLink:visited {
+    color: black;
+    text-decoration: none;
+}
+.navElement:hover {
+    background-color: white;
+}
+
+.footTable{
+    width:100%;
+}
+
+.footElement {
+    font-size:80%;
+    border: solid black;
+}
+
+.ontop {
+    z-index: 1;
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.fill {
+    max-width:100%;
+    max-height: 100%;
+
+}
+
+.divider {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.selected {
+    background-image: linear-gradient(to right, rgba(255, 50, 0, 1), rgba(120,120, 0, 0.1), rgba(0, 0, 0, 0));
+    border-radius: 5px;
+}
+#imgButt {
+    background-image: url("hand-3685829_1920.jpg");
+    background-repeat:no-repeat;
+    background-position:5px 2px;
+    text-align: left;
+    text-indent: 42px;
+
+}
+
+.cover {
+
+    width: inherit;
+    height:inherit;
+
+}
+
+.container {
+   height: 100px;
+    width: 1000px;
+    background-image: url("MG Logo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.autosize {
+    width: 500px;
+    height: auto;
+}

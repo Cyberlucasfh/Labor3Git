@@ -1,0 +1,228 @@
+:root {
+    --leftpos: 500;
+
+}
+
+
+body {
+    background-color: grey;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    clear: left;
+}
+footer {
+    bottom: -3px;
+    position: absolute;
+}
+
+#header {
+    top: 0px;
+    left: 300px;
+    position: fixed;
+    background-color: rgba(200,0,0,0.5);
+    z-index: 100;
+
+    border-radius: 5px;
+
+}
+#nav {
+    top:0px;
+    float: left;
+    position: fixed;
+    background-color: crimson;
+    margin: 10px;
+    border-radius: 10px;
+}
+#nav li:hover {
+    background-color: aliceblue;
+
+}
+.box {
+
+}
+.navelement {
+    margin-left: -30px;
+    font-size: 20px;
+    display: block;
+    border: 1px solid blue;
+    width: available;
+    height: auto;
+    background-color: dimgrey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.mainbody {
+    top: 100px;
+    left: 300px;
+    position: absolute;
+
+}
+.maintextbox {
+    width: 1000px;
+    /*height: auto;*/
+    padding: 1px;
+
+    
+}
+
+.text {
+    font-size: 20px;
+}
+.textlarge {
+    font-size: 25px;
+    font-style: oblique;
+
+}
+
+.ital {
+    font-style: italic;
+
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.picbox150x100 {
+    margin: 5px;
+    border:  2px solid black;
+    float: left;
+    height: 150px;
+    width: 100px;
+
+}
+.picbox500x300 {
+    margin: 5px;
+    border:  2px solid black;
+    float: left;
+    height: 500px;
+    width: 300px;
+
+}
+.picbox600x300 {
+    margin: 5px;
+    border:  2px solid black;
+    float: left;
+    height: 300px;
+    width: 600px;
+    clear: right;
+
+}
+
+.picbox280x160 {
+     margin: 5px;
+     border:  2px solid black;
+     float: left;
+     height: 160px;
+     width: 280px;
+     clear: right;
+
+ }
+.picbox800x300 {
+    margin: 5px;
+    border:  2px solid black;
+    float: left;
+    height: 300px;
+    width: 800px;
+    clear: right;
+
+}
+
+.footer {
+    text-align: center;
+    position: relative ;
+    bottom: -3px;
+    clear: left;
+
+
+}
+.green {
+    color: greenyellow;
+}
+
+.opt {
+    background-color: rgba(0,100,0,0.5);
+    border: 1px dot-dash black;
+}
+td {
+    border:  1px solid black;
+}
+th {
+     border:  1px solid black;
+
+ }
+table {
+    border:  1px solid black;
+}
+.thick {
+    border:  3px solid black;
+}
+
+.ontop {
+    position: absolute;
+    top: 120px;
+    border: 1px dot-dash dodgerblue;
+    z-index: 1;
+
+}
+.ontopper {
+    position: absolute;
+    top: 120px;
+    border: 1px dot-dash dodgerblue;
+    z-index: 100;
+
+
+}
+.onbottom {
+    position: relative;
+    z-index: -1;
+
+}
+
+.inset{
+    left: 20px;
+}
+@media print {
+    h1, p, .mainbody {
+        color: black;
+        background-color: white;
+        text-align: justify;
+        left: 100px;
+        zoom: 70%;
+
+    }
+
+   .noprint {display: none;
+    }
+}
+.center {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 90%;*/
+}
+
+.center:hover {
+    transform: scale(1.5);
+}
+.hover {
+    transform: scale(1.5);
+}
+
+.noBullets {
+    list-style-type: none;
+}

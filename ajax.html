@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="Moritz Menzel" name="author"/>
+    <meta content="Fräsenbau" name="keywords"/>
+    <title>Thinking Wearables Big</title>
+    <link href="css/Makerglove.css" rel="stylesheet"/>
+</head>
+<body onload="browsertype()">
+<header><h1 id ="head">Creating the Future of Manual Labour</h1></header>
+
+<section><a id="oben"></a></section>
+<!--NAV HEADER-->
+<nav id="navHeader">
+    <table id="navTable">
+        <tr>
+            <th class="navElement"><a class ="mainLink" href="index.html#oben" id="Start">Start</a></th>
+            <th class="navElement selected"><a class ="mainLink" href="goals.html" id="goals">Goals</a></th>
+            <th class="navElement"><a class ="mainLink" href="ideas.html" id="idea">Ideas</a></th>
+            <th class="navElement"><a class ="mainLink" href="products.html" id="products">Products</a></th>
+            <th class="navElement"><a class ="mainLink" href="order.html" id="order">Get a Quote</a></th>
+            <th class="navElement"><a class ="mainLink" href="feedback.html" id="feedback">Provide us Feedback</a></th>
+            <th class="navElement"><a class ="mainLink" href="rest.html" id="rest">The Rest</a></th>
+        </tr>
+    </table>
+</nav>
+<!--Main Section-->
+<section id="main">
+
+    <div class="left"></div>
+    <div class="center">
+
+        <div id="browsertype"></div>
+        <form method="post" id="form" action="">
+            <button id="reset">Reset outside form </button>
+            <button type="button" id="ajaxrequest">AJAXREQUEST </button>
+            <ul class="noBullets">
+                <li><label for="namefield">NameTEST:</label> </li>
+                <li><input type="text" name="name" maxlength="30" placeholder="Name" id="namefield"></li>
+                <li><label for="emailfield">Email</label></li>
+                <li><input type="email" name="email" id="emailfield" placeholder="E-Mail Addresse"></li>
+                <li><label for="datefield">Sag mir ein Datum</label></li>
+                <li><input type="date" name="date" id="datefield"></li>
+                <li><label for="messagefield">Nachricht</label></li>
+                <li><textarea name="message" id="messagefield" cols="30" rows="10"></textarea></li>
+                <li><label for="passwordfield">Geheimes Passwort:</label></li>
+                <li><input type="password" name="password" maxlength="30" placeholder="Passwort(hunter2)" id = passwordfield></li>
+                <li><input type="radio" name ="NO-REPLY" id="replyButton" value="100"> <label for="replyButton">Bitte antworten</label></li>
+                <li><input type="radio" name ="NO-REPLY" id="noreplyButton" value="102" checked="checked"> <label for="noreplyButton">Bitte NICHT antworten</label></li>
+                <li><input type="submit" id="submit"></li>
+                <button id="imgButt">Reset inside form </button>
+            </ul>
+        </form>
+        <div id="ajaxplaceholder"></div>
+    </div>
+    <div class="right"></div>
+</section>
+<!--Hier wurde ein Footer eingefügt-->
+<footer>
+    <table class="footTable">
+        <tr >
+            <th class="footElement">NAME  </th>
+            <th class="footElement">PLACE </th>
+            <th class="footElement">NUMBER </th>
+        </tr>
+    </table>
+</footer>
+<script src="milestone%203.js"></script>
+</body>
+</html>

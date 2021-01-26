@@ -3,8 +3,39 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="" />
+    <list default="true" id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MAKERGLOVE WA-MS2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAKERGLOVE WA-MS2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Makerglove.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Makerglove.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goals.html" beforeDir="false" afterPath="$PROJECT_DIR$/goals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ideas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ideas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milestone 3.js" beforeDir="false" afterPath="$PROJECT_DIR$/milestone 3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest.html" beforeDir="false" afterPath="$PROJECT_DIR$/rest.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,16 +49,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kK4UvAYCYRaij4VgzCFkoAAMWr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="PERL5_MAIN_SETTINGS" />
@@ -63,11 +107,28 @@
       <workItem from="1607524674351" duration="1353000" />
       <workItem from="1608195190720" duration="7112000" />
       <workItem from="1609778263895" duration="85000" />
+      <workItem from="1610625916533" duration="1030000" />
+      <workItem from="1610894079684" duration="770000" />
+      <workItem from="1611661736602" duration="12834000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606492241758">
@@ -82,6 +143,10 @@
       <screen x="1946" y="-1081" width="1920" height="1040" />
     </state>
     <state x="2407" y="-916" key="SettingsEditor/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@1946.-1081.1920.1040" timestamp="1607076616870" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611663140957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611663140957" />
     <state x="210" y="18" width="1397" height="849" key="dock-window-1" timestamp="1605618545417">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

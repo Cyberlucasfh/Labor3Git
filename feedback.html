@@ -5,26 +5,48 @@
     <meta content="Moritz Menzel" name="author"/>
     <meta content="Fräsenbau" name="keywords"/>
     <title>Thinking Wearables Big</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/Makerglove.css" rel="stylesheet"/>
 </head>
 <body>
+
 <header><h1>Creating the Future of Manual Labour</h1></header>
 <section><a id="oben"></a></section>
-<nav id="navHeader">
-    <table id="navTable">
-        <tr>
-            <th class="navElement"><a class ="mainLink" href="index.html#oben" id="Start">Start</a></th>
-            <th class="navElement"><a class ="mainLink" href="goals.html" id="goals">Goals</a></th>
-            <th class="navElement"><a class ="mainLink" href="ideas.html" id="idea">Ideas</a></th>
-            <th class="navElement"><a class ="mainLink" href="products.html" id="products">Products</a></th>
-            <th class="navElement"><a class ="mainLink" href="order.html" id="order">Get a Quote</a></th>
-            <th class="navElement  selected"><a class ="mainLink" href="feedback.html" id="feedback">Provide us Feedback</a></th>
-            <th class="navElement"><a class ="mainLink" href="rest.html" id="rest">The Rest</a></th>
-        </tr>
-    </table>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Makerglove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="goals.html">Goals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ideas.html">Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="order.html">Get a Quote</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="feedback.html">Provide us Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rest.html">The Rest</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
-<section id="main">
 
+<section id="main">
     <div class="left"></div>
     <div class="center">
         <form action="http://localhost/MAKERGLOVE WA-MS2/scripts/echo.pl" method="post" >
@@ -49,6 +71,57 @@
 
 
 
+        </form>
+        <form>
+            <div class="row mb-3">
+                <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputMail3" class="col-sm-2 col-form-label">E-Mail</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputMail3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputDate3" class="col-sm-2 col-form-label">Datum - Bitte Wählen</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="inputDate3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputMsg3" class="col-sm-2 col-form-label">Ihre Nachricht</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputMsg3">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPass3" class="col-sm-2 col-form-label">Supergeheimes Passwort</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPass3" placeholder="Passwort ist NICHT 'hunter2'">
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-sm-2 pt-0">Sollen wir Antworten?</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Bitte antworten
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Bitte NICHT antworten
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Abschicken</button>
+            <button type="reset" class="btn btn-primary">Zurücksetzen</button>
         </form>
 
 

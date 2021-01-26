@@ -32,6 +32,9 @@ function getBrowser(){
     else if (navigator.userAgent.indexOf("Firefox") != -1){
         return "Firefox";
     }
+    else if (navigator.userAgent.indexOf("Opera") != -1){
+        return "Opera"
+    }
 }
 function makeCookie(){
     console.log("Cookie Called")
@@ -66,18 +69,17 @@ function getTime(){
 function ajax(){
   console.log("WWWWWWWWW")
     var query ={
-      name: $("#namefield").value,
-        email:$("#emailfield").value,
-        date:$("#datefield").value,
-        message:$("#messagefield").value,
-      password:$("#passwordfield").value
+      name: $("#inputName").value,
+        email:$("#inputMail3").value,
+        date:$("#inputDate3").value,
+        message:$("#inputMsg3").value,
+      password:$("#inputPass3").value
   };
 }
 
 function reset(event){
-    event.preventDefault()
+    window.location.reload()
     var fields = document.getElementsByTagName("input")
-    fields.push(document.getElementsByTagName("textarea"))
     for (var i = 0; i < fields.length; i++){
         fields[i].value = null;
     }

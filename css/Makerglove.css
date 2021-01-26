@@ -12,10 +12,9 @@ body {
 
 }
 nav {
-    background-image: conic-gradient(orangered 50deg, white 170deg, orangered 310deg);
-    padding-bottom: 1%;
-    padding-top: 1%;
+    background: beige;
 }
+
 header {
     text-align: center;
     background-image: url("MG Logo.svg");
@@ -47,7 +46,7 @@ footer {
     float: left;
     display:flex;
     flex-flow: column;
-    text-align: center;
+    text-align: left;
 }
 .left {
     background-image: linear-gradient(to right, orangered, white );
@@ -146,4 +145,9 @@ a.mainLink:visited {
 .autosize {
     width: 500px;
     height: auto;
+}
+
+#browsertype{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

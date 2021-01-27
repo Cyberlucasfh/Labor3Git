@@ -22,12 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MAKERGLOVE WA-MS2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAKERGLOVE WA-MS2.iml" afterDir="false" />
+    <list default="true" id="a7699a1a-77e5-450f-a13f-05fd4190684b" name="Default Changelist" comment="Bootstrap in index und ajax, ajax als feedback funktion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Makerglove.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Makerglove.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/feedback.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goals.html" beforeDir="false" afterPath="$PROJECT_DIR$/goals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ideas.html" beforeDir="false" afterPath="$PROJECT_DIR$/ideas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -110,7 +107,20 @@
       <workItem from="1610625916533" duration="1030000" />
       <workItem from="1610894079684" duration="770000" />
       <workItem from="1611661736602" duration="12834000" />
+      <workItem from="1611676359428" duration="692000" />
+      <workItem from="1611677071559" duration="313000" />
+      <workItem from="1611680086756" duration="323000" />
+      <workItem from="1611741721735" duration="943000" />
+      <workItem from="1611743310596" duration="470000" />
     </task>
+    <task id="LOCAL-00001" summary="Bootstrap in index und ajax, ajax als feedback funktion">
+      <created>1611676471178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676471178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,23 +136,38 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Bootstrap in index und ajax, ajax als feedback funktion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap in index und ajax, ajax als feedback funktion" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606492241758">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="558" y="300" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1606492241758" />
+    <state x="184" y="72" key="DiffContextDialog" timestamp="1611677030903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="72" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611677030903" />
     <state x="2180" y="94" key="FileChooserDialogImpl" timestamp="1605606352676">
       <screen x="1440" y="-181" width="1920" height="1040" />
     </state>
     <state x="2180" y="94" key="FileChooserDialogImpl/0.0.1440.860/1440.-181.1920.1040@1440.-181.1920.1040" timestamp="1605606352676" />
+    <state x="838" y="417" key="Github.ShareDialog" timestamp="1611680179652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="417" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611680179652" />
     <state x="2407" y="-916" key="SettingsEditor" timestamp="1607076616870">
       <screen x="1946" y="-1081" width="1920" height="1040" />
     </state>
     <state x="2407" y="-916" key="SettingsEditor/0.0.1600.860/506.-900.1440.860/1946.-1081.1920.1040@1946.-1081.1920.1040" timestamp="1607076616870" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1611680127126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1611680127126" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611663140957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

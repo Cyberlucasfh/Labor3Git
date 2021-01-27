@@ -77,12 +77,17 @@ function ajax(){
   };
 }
 
+function sleep(number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+
+}
+
 function reset(event){
-    window.location.reload()
     var fields = document.getElementsByTagName("input")
     for (var i = 0; i < fields.length; i++){
         fields[i].value = null;
     }
+    sleep(2000).then(() => {window.location.reload()})
 }
 
 var btn = document.getElementById("ajaxrequest");
